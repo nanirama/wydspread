@@ -75,7 +75,7 @@ hr{ display: none;}
 .signup_form:after{right:-100px; top:-34px;}
 .signup_button{ max-width: 100%;}
 .btn2{ width: 100%;}
-.btn{ border: 0 !important;}
+/* .btn{ border: 0 !important;} */
 
 }
 
