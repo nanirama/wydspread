@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/clash-display');
+
+body{background-color: #0d063f;}
+h2, h4{font-family: 'Clash Display', sans-serif;font-weight:600;}
+p{font-family: 'IBM Plex Sans', sans-serif;font-weight: 300;font-size: 18px;line-height: 28px;letter-spacing: 0.015em; color: #FFFFFF;}
+
+
+.text-success{ color: #69FF8A !important;}
+.svg-icon.bg-success { width: 22px; height: 22px; background-color: #4EE870 !important;}
+
+.text-danger{ color: #F86C44 !important;}
+.svg-icon.bg-danger{ width: 26px; height: 26px; background-color: #D4542F !important}
+
+.svg-icon {width: 1em;height:1em;}
+.svg-icon path,.svg-icon polygon,.svg-icon rect {fill: #fff;}
+
+h2{font-size: 58px;line-height:57px;opacity: 0.99;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: -webkit-linear-gradient(#DEC0D5, #ACADEC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: #000;
+}
+h2 span{ line-height: 57px;; font-weight: 100; -webkit-text-stroke-width:0px; background:inherit;-webkit-text-stroke-color:#fff;-webkit-text-fill-color: #fff;}
+h4{letter-spacing: 0.05em; font-size: 24px; line-height: 28px;}
+
+
+
+.container-fluid{ max-width: 1800px;}
+.main_banner{ background-image: url(../images/banner_bg.jpg);background-position: top left;background-repeat: no-repeat;background-size: 100% 100%; padding: 27px 0;}
+
+.btn{border: 1px solid rgba(255,255,255,0.3 ); height: 56px; font-weight: 500; font-size: 18px;font-family: 'IBM Plex Sans', sans-serif; line-height: 23px;max-width: 151px; width: 100%;
+    padding:0 30px !important;}
+
+.signup_form input {
+background: linear-gradient(#272080,#211870) padding-box,
+linear-gradient(to right, #9C63E4, #3232D9) border-box;
+    border: 2px solid transparent; letter-spacing: 0.5px;width: 90%;max-width: 300px; }
+.signup_button { max-width: 220px;width: 100%; font-weight: 600;font-size: 18px; line-height: 23px; color: #fff;letter-spacing: 0.5px;padding: 0 45px;
+ border: 2px solid transparent;background: linear-gradient(to right, #9C63E4, #3232D9) padding-box, linear-gradient(to right, #9C63E4, #3232D9) border-box; }
+
+ .signup_button2 { max-width: 220px;width: 100%; font-weight: 600;font-size: 18px; line-height: 23px; color: #fff;letter-spacing: 0.5px;padding: 0 45px;
+    border: 2px solid transparent;background: linear-gradient(to right, #9C63E4, #3232D9) padding-box, linear-gradient(to right, #9C63E4, #3232D9) border-box; }
+
+ .arr_icon{ width:20px; height:25px; float:right; background-image: url(../images/icon.png);background-position: right center;background-repeat: no-repeat;}
+
+
+.btn2{background: linear-gradient(90deg, #69FF8A 0%, #2EAE4B 100%); width: 435px; max-width: 100%;}
+
+.girl_img{ left: 0; top:40%;}
+
+
+hr{opacity: 1;background: #261879;}
+
+.footer p{ font-size: 16px;}
+
+
+ 
+@media only screen and (min-width:1200px) and (max-width:1324px){
+ h2{font-size: 50px} 
+}  
+@media only screen and (min-width:992px) and (max-width:1100px){
+p br{ display: none;}
+h2{font-size: 52px;;} 
+}    
+ @media only screen and (min-width:768px) and (max-width:991px){
+.signup_form input{ max-width: 100%; width: 100%;}
+.signup_form{ max-width: 475px; margin: 0 auto;}
+hr{ display: none;}
+.main_banner{ background-image: url(../images/banner_tab_bg.jpg);background-size: 100%;}
+
+.signup_form:before, .signup_form:after{content: ''; width: 70px; height: 50px; position: absolute;background-image: url(../images/cloud1.png); background-position: top right; background-repeat: no-repeat; }
+.signup_form:before{left:-100px; bottom:15px;}
+.signup_form:after{right:-100px; top:-34px;}
+.signup_button{ max-width: 100%;}
+.btn2{ width: 100%;}
+.btn{ border: 0 !important;}
+
+}
+
+@media only screen and (max-width:767px) {
+.justify-content-sm-center {
+    -webkit-justify-content: center !important;
+    -moz-box-pack: center !important;
+    justify-content: center !important;
+}
+.ps-sm-2 {
+	padding-left: 0.5rem !important;
+}
+.main_banner{ background-image: url(../images/banner_mob_bg.jpg);}
+h2{font-size: 50px;line-height: 52px;}  
+h2 span {line-height: 50px;}
+.signup_form input{ max-width: 100%; width: 100%;}
+.signup_form{ max-width: 400px; margin: 0 auto;}
+hr{ display: none;}
+.btn2{ width: 100%;}
+.signup_form p{ font-size: 16px;}
+.signup_button{ max-width: 100%;}
+.signup_form input{background: linear-gradient(to right, #27237d,#453594) padding-box, linear-gradient(to right, #9C63E4, #3232D9) border-box;}
+h2{text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    background: -webkit-linear-gradient(#DEC0D5, #ACADEC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     -webkit-text-stroke-width:0px;
+    -webkit-text-stroke-color: transparent;
+}
+h4{ position: relative;}
+h4:before{ content: ''; width: 43px; height: 50px; position: absolute; right:-36px; top:10%;background-image: url(../images/cloud2.png); background-position: center right; background-repeat: no-repeat;}
+}
+@media only screen and (max-width:570px) {
+h4 br{ display: none;}
+h4::before {right: -28px;}
+}    
+@media only screen and (max-width:480px) {
+    br{ display: none;}
+    h2 br{ display: block;}
+    h2{font-size: 35px;line-height:38px;}  
+h2 span {line-height:36px;}
+ 
+}
+@media only screen and (max-width:479px) {
+
+.signup_form{ max-width: 100%;}
+.footer p {font-size: 11px;line-height: 20px; }
+.main_banner { padding-top:35px;}
+
+
+}    
+@media only screen and (max-width:409px) {
+    h2{font-size: 32px;line-height:36px;}  
+ 
+}
+
+@media only screen and (max-width:360px) {
+.main_banner{ padding-left: 0px !important; padding-right:0px !important;}
+h4::before {right: -12px;top: -10%;}
+}
+
+.btn-msg-sec{ height:36px;}
+.border2{border:2px solid red;}
+
+
+
