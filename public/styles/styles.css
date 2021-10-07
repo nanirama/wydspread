@@ -37,13 +37,13 @@ h4{letter-spacing: 0.05em; font-size: 24px; line-height: 28px;}
 background: linear-gradient(#272080,#211870) padding-box,
 linear-gradient(to right, #9C63E4, #3232D9) border-box;
     border: 2px solid transparent; letter-spacing: 0.5px;width: 90%;max-width: 300px; }
-.signup_button { max-width: 220px;width: 100%; font-weight: 600;font-size: 18px; line-height: 23px; color: #fff;letter-spacing: 0.5px;padding: 0 45px;
+.signup_button { max-width: 220px;width: 100%; font-weight: 600;font-size: 18px; line-height: 23px; color: #fff;letter-spacing: 0.5px;
  border: 2px solid transparent;background: linear-gradient(to right, #9C63E4, #3232D9) padding-box, linear-gradient(to right, #9C63E4, #3232D9) border-box; }
 
  .signup_button2 { max-width: 220px;width: 100%; font-weight: 600;font-size: 18px; line-height: 23px; color: #fff;letter-spacing: 0.5px;padding: 0 45px;
     border: 2px solid transparent;background: linear-gradient(to right, #9C63E4, #3232D9) padding-box, linear-gradient(to right, #9C63E4, #3232D9) border-box; }
 
- .arr_icon{ width:20px; height:25px; float:right; background-image: url(../images/icon.png);background-position: right center;background-repeat: no-repeat;}
+ .arr_icon{ width:20px; height:25px; margin-top:5px; margin-left:6px; float:right; background-image: url(../images/arrow-icon2.png);background-position: right center;background-repeat: no-repeat;}
 
 
 .btn2{background: linear-gradient(90deg, #69FF8A 0%, #2EAE4B 100%); width: 435px; max-width: 100%;}
